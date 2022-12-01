@@ -15,68 +15,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
+   
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-md navbar-danger fixed-top bg-danger">
+  <nav class="navbar navbar-expand-md navbar-secondary fixed-top bg-secondary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Fabricas de Carros</a>
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,8 +40,8 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-success" type="submit">Pesquisa</button>
+          <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
+          <button class="btn btn-dark" type="submit">Pesquisar</button>
         </form>
       </div>
     </div>
@@ -118,7 +63,7 @@
           <div class="carousel-caption text-start">
             <h1>Os Melhores Projetos</h1>
             <p>Veja e Aprenda com os projetos mais famosos do Mundo.</p>
-            <p><a class="btn btn-lg btn-danger" href="#">Veja Mais</a></p>
+            <p><a class="btn btn-lg btn-dark" href="#">Veja Mais</a></p>
           </div>
         </div>
       </div>
@@ -128,7 +73,7 @@
           <div class="carousel-caption">
             <h1>As Maiores Fabricas .</h1>
             <p>Descubra quais as melhores fabricas do Mundo.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Leia Mais</a></p>
+            <p><a class="btn btn-lg btn-dark" href="#">Leia Mais</a></p>
           </div>
         </div>
       </div>
@@ -139,7 +84,7 @@
           <div class="carousel-caption text-end">
             <h1>Votação do Melhor Carro do Ano</h1>
             <p>Vote agora mesmo no carro que você acham que merece nosso premio.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Seguir para Votação</a></p>
+            <p><a class="btn btn-lg btn-dark" href="#">Seguir para Votação</a></p>
           </div>
         </div>
       </div>
@@ -168,28 +113,27 @@
         <img src="img/antigo.jpg" class="bd-placeholder-img bg-primary rounded-circle" width="140" height="140">
         <h2 class="fw-normal">Raridades</h2>
         <p>Galeria de Fotos</p>
-        <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-dark" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
          <img src="img/projeto.jpg" class="bd-placeholder-img bg-danger rounded-circle" width="140" height="140">
         <h2 class="fw-normal">Projetos</h2>
         <p>Leia sobre os Projetos</p>
-        <p><a class="btn btn-danger" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-dark" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="img/voto.png" class="bd-placeholder-img bg-warning rounded-circle" width="140" height="140">
         <h2 class="fw-normal">votaçâo</h2>
         <p> Acompanhe as votações</p>
-        <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-dark" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
-	<div class="row">
-	  <div class="col"></div>
-	  <div class="col"><a href="index.html"><img src="img/pedestrians.jpg" width="1000" height="300"></a></div>
-	  <div class="col"></div>
+	<div class="alert alert-success">
+  <strong>Um mundo de possibilidades!</strong> 
+</div>
 	</div>
 	<div class="row">
-	  <div class="col-sm-4"><a href="index.html"><img src="img/logo-pet-shop.png" width="100%"></a></div>
+	  <div class="col-sm-4"><a href="index.html"><img src="img/logocarros.png" width="50%"></a></div>
 	  <div class="col-sm-8">
 		<nav>
 			<!-- Menu de navegação -->
@@ -207,11 +151,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading fw-normal lh-1"> Planos para <span class="text-muted"> Socios</span></h2>
+        <p class="lead">Conheça os planos para se torna socio do nosso site e contribuir, com 20% de cashback!</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img src="img/logoame.png" width="700" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
 
       </div>
     </div>
@@ -220,11 +164,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Nossa  <span class="text-muted"> Localização.</span></h2>
+        <p class="lead">Venha visitar nosso servidores e aprenda como eles funcionam.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4460.272227223578!2d-44.03464988980893!3d-19.940120215618006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa695ea5dd82e1d%3A0xca75cdd5bbcad1d6!2sFaculdade%20Senac%20-%20Contagem!5e0!3m2!1spt-BR!2sbr!4v1669854874827!5m2!1spt-BR!2sbr" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></svg>
 
       </div>
     </div>
@@ -233,11 +177,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Quem <span class="text-muted"> Somos</span></h2>
+        <p class="lead">Somos um empresa familiar abredos a todos os publicos!</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+       <img src="img/empresa.jpg" width="700" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
 
       </div>
     </div>
@@ -255,6 +199,34 @@
     <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
+
+<footer>
+		<small class="copyleft">
+			<p>Copyleft 2022 - Open Source Professor <a href="https:/">Cleber Leão </a></p>
+		</small>
+		<small class="social">
+			<figure> <!-- imagens da rede social -->
+			<!--	<a title="Entre em contato pelo Linkedin" href="https://www.linkedin.com/in/cleberleao/" target="_blank"><img  src="img/linkedin.png"></a>
+				<a title="Acesse nosso Instagram" href="https://www.instagram.com/professorcleberleao" target="_blank"><img  src="img/instagram.png"></a>
+				<a title="Assista nossos vídeo no Youtube" href="https://www.youtube.com/@cleberleao1018" target="_blank"><img  src="img/youtube.png"></a>
+				<a title="Acesse nosso Facebook" href="https://www.facebook.com/cleber.leao.almeida" target="_blank"><img src="img/facebook.png"></a>
+			-->
+			
+			<i class="cor-icone fa-brands fa-facebook-square fa-3x"></i>
+			<i class="cor-icone fa-brands fa-youtube-square fa-3x"></i>
+			<i class="cor-icone fa-brands fa-linkedin fa-3x"></i>
+			<i class="cor-icone fa-brands fa-instagram-square fa-3x"></i>
+
+			</figure>
+		</small>
+	</footer>
+	<figure class="whatsapp">
+		<a title="Entre em contato pelo WhatsApp" href="https://api.whatsapp.com/send?phone=31996747875" target="_blank"><img src="img/whatsapp-fixo.png" ></a>
+	</figure>
+	<figure class="volta-topo">
+		<a href="#topo" title="Voltar ao topo"><img src="img/top.png" ></a>
+	<figure>
+
 
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
